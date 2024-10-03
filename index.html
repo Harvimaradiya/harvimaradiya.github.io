@@ -3,55 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Program - University of Regina</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #004a99;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>Data Science Program | University of Regina</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Data Science Program</h1>
-        <p>Department of Computer Science, University of Regina</p>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="University of Regina">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Data Science Program</h1>
+            <p>Explore, Analyze, Innovate</p>
+            <a href="#apply" class="btn">Apply Now</a>
+        </section>
     </header>
-    
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Curriculum</a>
-        <a href="#">Admissions</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact</a>
-    </nav>
 
-    <section>
-        <h2>Welcome to the Data Science Program</h2>
-        <p>The Data Science program at the University of Regina offers cutting-edge education at the intersection of computer science, statistics, and real-world data application. Our program prepares students for a growing field by providing hands-on experience and in-depth knowledge of big data, machine learning, and advanced data analytics techniques.</p>
-        <p>Learn more about the unique aspects of our curriculum, industry partnerships, and how you can apply to join the next generation of data scientists.</p>
+    <section id="about" class="about-section">
+        <h2>About the Program</h2>
+        <p>The University of Regina’s Data Science program is designed to equip students with the technical skills and analytical mindset required in today’s data-driven world. With a unique blend of computational science, statistics, and hands-on industry projects, this program prepares you to excel in the world of big data and AI.</p>
+        <img src="data_science_lab.jpg" alt="Data Science Lab">
     </section>
+
+    <section id="highlights" class="highlights-section">
+        <h2>Program Highlights</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <h3>Hands-on Projects</h3>
+                <p>Work on real-world projects with our industry partners, providing valuable practical experience.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Cutting-edge Tools</h3>
+                <p>Gain proficiency in tools like Python, R, TensorFlow, and Spark, critical for modern data science.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Industry Network</h3>
+                <p>Benefit from our strong industry connections, opening doors for internships and job placements.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>University of Regina, Department of Computer Science</p>
+        <p>Email: <a href="mailto:datasci@uregina.ca">datasci@uregina.ca</a></p>
+    </footer>
 </body>
 </html>
