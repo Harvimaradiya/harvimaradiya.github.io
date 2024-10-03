@@ -89,24 +89,6 @@ body {
     margin-top: 20px;
 }
 
-.highlights-section {
-    padding: 50px;
-    background-color: #fff;
-}
-
-.highlights-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    text-align: center;
-}
-
-.highlight-card {
-    background-color: #f4f4f4;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 /* Program Courses Section */
 .program-courses-section {
     padding: 50px;
@@ -136,6 +118,27 @@ body {
 .card p {
     font-size: 1.1em;
     color: #333;
+}
+
+/* Program Highlights Section */
+.highlights-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.highlight-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Admission Deadline Section */
